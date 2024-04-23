@@ -4,3 +4,11 @@
 - Setup github
 - watch video: url to ytube 
 - learn how to use github
+
+## Week 2
+- make website
+- add links
+- add text
+
+## Week 3
+- make it look cool
