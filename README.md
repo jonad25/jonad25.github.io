@@ -1,4 +1,4 @@
-##jonad25.gihub.io
+##jonad25.github.io
 
 ## Week 1
 - Setup github
