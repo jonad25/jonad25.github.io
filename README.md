@@ -2,12 +2,11 @@
 
 ## Week 1
 - Setup github
-- watch video: url to ytube 
 - learn how to use github
 
 ## Week 2
 - make website
-- add links
+- add css and java links
 - add text
 
 ## Week 3
