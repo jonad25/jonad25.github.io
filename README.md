@@ -6,8 +6,13 @@
 
 ## Week 2
 - make website
+- Re-learn CSS
 - add css and java links
 - add text
 
 ## Week 3
-- make it look cool
+- Re-learn java
+- make it look cool using css
+
+## Week 4
+- Add java buttom
