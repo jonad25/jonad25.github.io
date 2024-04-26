@@ -17,9 +17,11 @@
 
   .my-button {
     background-color: blue;
-    color: white;
+    color: red;
     padding: 10px 20px;
-    border: none;
+    border: 1px solid black;
     border-radius: 5px;
     cursor: pointer;
+    padding: 10px;
+    margin: 10px;
   }
