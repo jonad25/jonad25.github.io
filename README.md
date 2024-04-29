@@ -6,7 +6,7 @@
 
 ## Week 2
 - make website
-- Re-learn CSS
+- Re-learn CSS (Using codacademy)
 - add css and java links
 - add text
 
@@ -15,4 +15,4 @@
 - make it look cool using css
 
 ## Week 4
-- Add java buttom
+- Add java button
