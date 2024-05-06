@@ -12,13 +12,18 @@
 
   <button class="open-button" onClick="openForm()">Click me</button>
     <div class="form-popup" id="myForm">
+      
       <form action="/action_page.php" class="form-container">
       <h1>RSVP</h1>
-        <label for="name"><b>Name (first and last)</b></label>
-        <input type="text" placeholder="Enter Name" name="name" required>
-
-        <label for="attending"><b>Will you be attending?</b></label>
-        <input type="attending" placeholder="YES or NO" name="attending" required>
+          <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+        <label for="cars">Choose a car:</label>
+<select id="attending" name="attending">
+  <option value="yes">Yes</option>
+  <option value="no">No</option>
+</select>
 
          <button type="submit" class="btn">Enter</button>
     <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
