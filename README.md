@@ -9,7 +9,8 @@
 - Re-learn CSS (Using codacademy)
 - add css and java links
 - add text
-- Working on css in codeacademy 
+- Working on css in codeacademy
+- Make slides for presentation
 
 ## Week 3
 - Re-learn java
