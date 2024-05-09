@@ -2,6 +2,7 @@ body {
   background-image: url("https://cdn10.bostonmagazine.com/wp-content/uploads/sites/2/2023/10/beacon_restaurants-2.jpg"), url("https://parade.com/.image/t_share/MjAzMzU3NzQxMzU4NTIzOTgz/happy-birthday-wishes-messages.jpg");
   background-color: #9932CC;
   background-repeat: no-repeat;
+  background-size: auto;
 }
 
 
