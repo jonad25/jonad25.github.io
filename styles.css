@@ -4,16 +4,6 @@ body {
 
 
 
-.box1 {
-  width: 600px;
-  height: 300px;
-  border: 1px solid white;
-  padding: 10px;
-  margin: auto;
-  text-color: white;
-}
-
-
 .heading {
   text-color: white;
   font-size: 15px;
