@@ -11,32 +11,27 @@
   Welcome everyone! I will be hosting my 17th birthday party from <b>6 pm - 11 pm</b> on <b>June 12, 2024</b> at <b>Comella's Pizzeria</b> in Belmont.
 </h1>
 
-  <button class="open-button" onClick="openForm()" onclick="style.display = 'none'>Click me</button>
-    <div class="form-popup" id="myForm">
-      
-      <form action="/action_page.php" class="form-container">
-      <h1>RSVP</h1>
-          <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname">
-        <label for="cars">Will you be attending?</label>
-<select id="attending" name="attending">
-  <option value="yes">Yes</option>
-  <option value="no">No</option>
-</select>
 
-         <button type="submit" class="btn">Enter</button>
+<button class="open-button" onclick="openForm()">Open Form</button>
+
+
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Login</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="btn">Login</button>
     <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
 
 
 
 
-        
-      </form>
-    </div>
-        
-      
-  
   </body>
 </html>
