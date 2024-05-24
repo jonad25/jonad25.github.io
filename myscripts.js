@@ -8,10 +8,10 @@ function closeForm() {
 }
 
 
-let person = prompt("Please enter your name", "");
+let person = prompt("Please enter your name (first and last)", "");
 let text;
 if (person == null || person == "") {
   text = "User cancelled the prompt.";
 } else {
-  text = "Hello " + person + "! How are you today?";
+  text = "Hello " + person + "! You have been invited ";
 }
