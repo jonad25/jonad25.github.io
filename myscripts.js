@@ -7,8 +7,11 @@ function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
 
-if (confirm("Press a button!")) {
-  txt = "You pressed OK!";
+
+let person = prompt("Please enter your name", "Harry Potter");
+let text;
+if (person == null || person == "") {
+  text = "User cancelled the prompt.";
 } else {
-  txt = "You pressed Cancel!";
+  text = "Hello " + person + "! How are you today?";
 }
