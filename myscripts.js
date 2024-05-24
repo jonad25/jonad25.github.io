@@ -8,7 +8,7 @@ function closeForm() {
 }
 
 
-let person = prompt("Please enter your name", "Harry Potter");
+let person = prompt("Please enter your name", "");
 let text;
 if (person == null || person == "") {
   text = "User cancelled the prompt.";
