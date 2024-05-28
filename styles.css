@@ -5,7 +5,9 @@
 }
 
 .writing {
-  color: blue;
+  color: #00008B;
+  font-size: 40px;
+  margin: auto;
 }
 
 .open-button {
