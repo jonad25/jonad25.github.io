@@ -12,10 +12,24 @@
 color: 
 }
 
+.box {
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  width: 600px;
+  height: 300px;
+  border: 1px solid white;
+  padding: 10px;
+  margin: auto;
+  text-color: white;
+
+
+.heading {
+  text-color: white;
+  font-size: 15px;
+}
 
 {box-sizing: border-box;}
-
-
 .open-button {
   background-color: #555;
   color: white;
@@ -23,30 +37,20 @@ color:
   border: none;
   cursor: pointer;
   opacity: 0.8;
-  position: fixed;
-  bottom: 23px;
-  right: 28px;
   width: 280px;
+  margin: auto;
 }
-
-
 .form-popup {
   display: none;
-  position: fixed;
-  bottom: 0;
-  right: 15px;
+  margin: auto;
   border: 3px solid #f1f1f1;
   z-index: 9;
 }
-
-
 .form-container {
   max-width: 300px;
   padding: 10px;
   background-color: white;
 }
-
-
 .form-container input[type=text], .form-container input[type=password] {
   width: 100%;
   padding: 15px;
@@ -54,14 +58,10 @@ color:
   border: none;
   background: #f1f1f1;
 }
-
-
 .form-container input[type=text]:focus, .form-container input[type=password]:focus {
   background-color: #ddd;
   outline: none;
 }
-
-
 .form-container .btn {
   background-color: #04AA6D;
   color: white;
@@ -72,13 +72,9 @@ color:
   margin-bottom:10px;
   opacity: 0.8;
 }
-
-
 .form-container .cancel {
   background-color: red;
 }
-
-/* Add some hover effects to buttons */
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
 }
