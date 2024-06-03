@@ -29,13 +29,16 @@
 
 <div class="form-popup" id="myForm">
   <form action="/action_page.php" class="form-container">
-    <h1>Login</h1>
+    <h1>RSVP</h1>
 
     <label for="email"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="email" required>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+    <label for="coming">Will you be attending?</label>
+<select id="attending" name="attending">
+  <option value="yes">Yes</option>
+  <option value="no">No</option>
+</select>
 
     <button type="submit" class="btn">Login</button>
     <button type="button" class="btn cancel" onclick="closeForm(); window.alert("Your RSVP is submitted!");">Close</button>
@@ -43,11 +46,6 @@
 </div>
     
 
-        <label for="coming">Will you be attending?</label>
-<select id="attending" name="attending">
-  <option value="yes">Yes</option>
-  <option value="no">No</option>
-</select>
 
         
       
