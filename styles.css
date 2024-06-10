@@ -20,7 +20,11 @@
   margin: 20px;
 }
 
-
+.pictza {
+position: absolute;
+top: 75%;
+left: 66.67%;
+}
 
 
 {box-sizing: border-box;}
